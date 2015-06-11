@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Business core layer</Name>
+    <Description>Project for core business logic</Description>
+    <Icon>icon.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>fe5cabaa-6d7e-45df-a5f4-024dbae81e1e</TemplateID>
+    <CreateNewFolder>false</CreateNewFolder>
+    <DefaultName>$ext_safeprojectname$.Business.Core</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$ext_safeprojectname$.Business.Core.csproj" File="Business.csproj" ReplaceParameters="true">
+      <Folder Name="Handlers" TargetFolderName="Handlers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ExceptionHandler.cs">ExceptionHandler.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Managers" TargetFolderName="Managers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ProductManager.cs">ProductManager.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Repositories" TargetFolderName="Repositories" />
+      <Folder Name="Validators" TargetFolderName="Validators">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ProductValidator.cs">ProductValidator.cs</ProjectItem>
+      </Folder>    </Project>
+  </TemplateContent>
+</VSTemplate>

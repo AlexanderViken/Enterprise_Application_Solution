@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Core.Tests</Name>
+    <Description>Test solution for business core</Description>
+    <Icon>icon.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>fe5cabaa-6d7e-45df-a5f4-024dbae81e1e</TemplateID>
+    <CreateNewFolder>false</CreateNewFolder>
+    <DefaultName>$ext_safeprojectname$.Business.Core.Tests</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$ext_safeprojectname$.Business.Core.Tests.csproj" File="BusinessTests.csproj" ReplaceParameters="true">
+      <Folder Name="Handlers" TargetFolderName="Handlers" />
+      <Folder Name="Managers" TargetFolderName="Managers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ProductManagerTests.cs">ProductManagerTests.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Repositories" TargetFolderName="Repositories" />
+      <Folder Name="Validators" TargetFolderName="Validators" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="Should.1.1.20.nupkg">Should.1.1.20.nupkg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="structuremap.3.0.0.108.nupkg">structuremap.3.0.0.108.nupkg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Moq.4.0.10827.nupkg">Moq.4.0.10827.nupkg</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages repository="template" isPreunzipped="false">
+      <package id="Moq" version="4.0.10827"/>
+      <package id="Should" version="1.1.20"/>
+      <package id="structuremap" version="3.0.0.108"/>
+    </packages>
+  </WizardData>
+</VSTemplate>

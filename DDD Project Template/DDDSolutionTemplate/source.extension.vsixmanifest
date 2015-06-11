@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="DDDSolutionTemplate..3ed42c14-8049-41d3-ad56-a1dd1044a4c4" Version="0.7" Language="en-US" Publisher="Alexander Viken" />
+    <DisplayName>Enterprise Application SOLID Solution</DisplayName>
+    <Description xml:space="preserve">This Visual Studio multi-project solution template sets up a base project structure for software based on SOLID principles</Description>
+    <MoreInfo>http://azurehowto.no</MoreInfo>
+    <License>License.txt</License>
+    <GettingStartedGuide>GettingStarted.txt</GettingStartedGuide>
+    <ReleaseNotes>ReleaseNotes.txt</ReleaseNotes>
+    <Icon>ApplicationIcon.png</Icon>
+    <Tags>SOLID, Multiple Project Template, Domain Driven Design, Enterprise Solution</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[12.0,13.0]" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Enterprise" />
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Enterprise" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Community" />
+  </Installation>
+  <Dependencies>
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" Path="ProjectTemplates" d:TargetPath="|DDD Project Template;TemplateProjectOutputGroup|" d:ProjectName="DDD Project Template" d:VsixSubPath="ProjectTemplates" />
+  </Assets>
+</PackageManifest>

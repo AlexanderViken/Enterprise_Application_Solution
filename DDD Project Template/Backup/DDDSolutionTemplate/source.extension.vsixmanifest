@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="DDDSolutionTemplate..3ed42c14-8049-41d3-ad56-a1dd1044a4c4" Version="0.6" Language="en-US" Publisher="Alexander Viken" />
+    <DisplayName>Enterprise Application Solution</DisplayName>
+    <Description xml:space="preserve">This Visual Studio 2013 multi-project solution template sets up a base project structure for software based on DDD principles for decoupling of responsibility and testability. Visual S</Description>
+    <MoreInfo>http://azurehowto.no</MoreInfo>
+    <License>License.txt</License>
+    <GettingStartedGuide>GettingStarted.txt</GettingStartedGuide>
+    <ReleaseNotes>ReleaseNotes.txt</ReleaseNotes>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[12.0,13.0]" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" Path="ProjectTemplates" d:TargetPath="|DDD Project Template;TemplateProjectOutputGroup|" d:ProjectName="DDD Project Template" d:VsixSubPath="ProjectTemplates" />
+  </Assets>
+</PackageManifest>

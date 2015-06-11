@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Domain</Name>
+    <Description>Template for the daomain layer</Description>
+    <Icon>icon.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>fe5cabaa-6d7e-45df-a5f4-024dbae81e1e</TemplateID>
+    <CreateNewFolder>false</CreateNewFolder>
+    <DefaultName>$ext_safeprojectname$.Domain</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$ext_safeprojectname$.Domain.csproj" File="Domain.csproj" ReplaceParameters="true">
+      <Folder Name="Contracts" TargetFolderName="Contracts">
+        <Folder Name="Factories" TargetFolderName="Factories">
+          <ProjectItem ReplaceParameters="true" TargetFileName="IProductFactory.cs">IProductFactory.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Handlers" TargetFolderName="Handlers">
+          <ProjectItem ReplaceParameters="true" TargetFileName="IExceptionHandler.cs">IExceptionHandler.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Managers" TargetFolderName="Managers">
+          <ProjectItem ReplaceParameters="true" TargetFileName="IProductManager.cs">IProductManager.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Repositories" TargetFolderName="Repositories">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ILogger.cs">ILogger.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="IProductRepository.cs">IProductRepository.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Validators" TargetFolderName="Validators">
+          <ProjectItem ReplaceParameters="true" TargetFileName="IProductValidator.cs">IProductValidator.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="IValidator.cs">IValidator.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="Entities" TargetFolderName="Entities">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Product.cs">Product.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Values" TargetFolderName="Values">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Money.cs">Money.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

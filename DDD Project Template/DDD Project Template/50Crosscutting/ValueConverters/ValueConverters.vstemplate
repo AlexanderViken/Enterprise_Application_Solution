@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Crosscutting.ValueConverters</Name>
+    <Description>Value converters for the enterprise solution</Description>
+    <Icon>icon.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>fe5cabaa-6d7e-45df-a5f4-024dbae81e1e</TemplateID>
+    <CreateNewFolder>false</CreateNewFolder>
+    <DefaultName>$ext_safeprojectname$.CrossCutting.ValueConverters</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$ext_safeprojectname$.CrossCutting.ValueConverters.csproj" File="ValueConverters.csproj" ReplaceParameters="true">
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">CurrencyConverter.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

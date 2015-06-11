@@ -1,0 +1,50 @@
+﻿<VSTemplate Version="2.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Enterprise Solution SOLID Template</Name>
+    <Description>A C# solution template focused on decoupling and testability in software for software using the full .NET framework</Description>
+    <Icon>icon.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <SolutionFolder Name="00 Documentation Layer">
+      </SolutionFolder>
+      <SolutionFolder Name="10 Presentation Layer">
+        
+      </SolutionFolder>
+
+      <SolutionFolder Name="20 Business Layer">
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Business.Core" CopyParameters="true">
+          20Business\Core\Business.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Business.Core.Tests" CopyParameters="true">
+          20Business\Tests\BusinessTests.vstemplate
+        </ProjectTemplateLink>
+      </SolutionFolder>
+      <SolutionFolder Name="30 Domain Layer">
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Domain" CopyParameters="true">
+          30Domain\Domain.vstemplate
+        </ProjectTemplateLink>
+      </SolutionFolder>
+      <SolutionFolder Name="40 Data Layer">
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Data.Fakes" CopyParameters="true">
+          40Data\Data.vstemplate
+        </ProjectTemplateLink>
+      </SolutionFolder>
+      <SolutionFolder Name="50 Cross-Cutting Layer">
+        <ProjectTemplateLink ProjectName="$safeprojectname$.CrossCutting.Extentions" CopyParameters="true">
+          50Crosscutting\Extentions\Extentions.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.CrossCutting.TestHelpers" CopyParameters="true">
+          50Crosscutting\TestHelpers\TestHelpers.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.CrossCutting.ValueConverters" CopyParameters="true">
+          50Crosscutting\ValueConverters\ValueConverters.vstemplate
+        </ProjectTemplateLink>
+      </SolutionFolder>
+      <SolutionFolder Name="60 Deployment Layer">
+
+      </SolutionFolder>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,1 @@
+﻿Create a new project or solution in visual studio and select the Enterprise Application Template for easy setup of application skeleton.
