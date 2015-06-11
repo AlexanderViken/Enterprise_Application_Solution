@@ -1,4 +1,4 @@
-# DDD Project Template
+# Enterprise Application Solution
 The Enterprise Application Template gives you a boilerplate solution template with 5 projects separated in solution folders based on SOLID principles.
 
 + 00 Documentation Layer 
@@ -35,7 +35,7 @@ A big thank you to @digitaldias for eye openers and help!
 You'll need Visual Studio 2015 (RC minimum) with Visual Studio 2015 (RC minimum) SDK installed to open the Visual Studio Extension project.
 
 ## Download
-A compiled version can be found inside the Microsoft Visual Studio (2013 & 2015) Extensions and Updates menu. Do a search for "Enterprise Application Solution" or visit [Visual Studio Gallery] to download 
+A compiled version can be found inside the Microsoft Visual Studio (2013 & 2015) Extensions and Updates menu. Do a search for "Enterprise Application Solution" or visit [Visual Studio Gallery] to download.
 
 
  [Visual Studio Gallery]:https://visualstudiogallery.msdn.microsoft.com/74633fdf-0563-4c75-aca8-f69835e7f8ab
