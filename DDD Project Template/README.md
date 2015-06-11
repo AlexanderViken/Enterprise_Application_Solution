@@ -1,7 +1,7 @@
 # DDD Project Template
 The Enterprise Application Template gives you a boilerplate solution template with 5 projects separated in solution folders based on SOLID principles.
 
-* 00 Documentation Layer •The documentation layer is where you for instance can add SpeckFlow definitions or code map diagrams 
++ 00 Documentation Layer +The documentation layer is where you for instance can add SpeckFlow definitions or code map diagrams 
 * 10 Presentation Layer •The presentation layer is empty for you to add your user interface project (ie: WebApps, WCF apps, etc) 
 * 20 Business Layer •The business layer has two projects. The concrete implementation of the business layer, and a Unit Test project for the business layer. 
 * 30 Domain Layer •The domain layer folder has one project for interface definitions, entities and values. 
