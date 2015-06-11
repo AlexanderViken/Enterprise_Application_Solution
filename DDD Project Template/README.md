@@ -30,3 +30,9 @@ The template has predefined references to the following NuGet packages
 The reason for using structuremap.automocking.moq version 3.0.5.130 and not latest version is that there is a bug/issue  that I've not yet understood and you should not upgrade that reference unless you know what you are doing. The TestHelper class is set up for MSTest so if you are using any other framework you will have to replace the testclass and testinitialiser decorations appropriate to your framework.
 
 A big thank you to @digitaldias for eye openers and help!
+
+## Requirements
+You'll need Visual Studio 2015 (RC minimum) with Visual Studio 2015 (RC minimum) SDK installed to open the Visual Studio Extension project.
+
+## Download
+A compiled version can be found inside the Microsoft Visual Studio (2013 & 2015) Extensions and Updates menu. Do a search for "Enterprise Application Solution" or visit [Visual Studio Gallery]: https://visualstudiogallery.msdn.microsoft.com/74633fdf-0563-4c75-aca8-f69835e7f8ab to download 
