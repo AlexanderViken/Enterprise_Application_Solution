@@ -1,1 +1,0 @@
-﻿Created as a convenient way to set up boiler plate projects.
