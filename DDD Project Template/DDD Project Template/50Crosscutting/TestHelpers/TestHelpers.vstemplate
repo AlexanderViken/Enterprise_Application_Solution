@@ -19,7 +19,7 @@
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
-      <ProjectItem ReplaceParameters="true" TargetFileName="TestsFor.cs" OpenInEditor="true">TestsFor.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TestsFor.cs" OpenInEditor="false">TestsFor.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Should.1.1.20.nupkg">Should.1.1.20.nupkg</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="structuremap.3.0.0.108.nupkg">structuremap.3.0.0.108.nupkg</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="structuremap.automocking.moq.3.0.5.130.nupkg">structuremap.automocking.moq.3.0.5.130.nupkg</ProjectItem>

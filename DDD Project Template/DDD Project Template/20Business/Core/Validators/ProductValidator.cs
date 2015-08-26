@@ -1,7 +1,7 @@
 ﻿using $ext_safeprojectname$.Domain.Contracts.Validators;
 using $ext_safeprojectname$.Domain.Entities;
 
-namespace $safeprojectname$.Validators
+namespace $ext_safeprojectname$.$safeprojectname$.Validators
 {
     public class ProductValidator :IProductValidator
     {

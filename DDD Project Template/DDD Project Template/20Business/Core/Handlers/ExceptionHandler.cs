@@ -2,7 +2,7 @@
 using $ext_safeprojectname$.Domain.Contracts.Repositories;
 using System;
 
-namespace $safeprojectname$.Handlers
+namespace $ext_safeprojectname$.$safeprojectname$.Handlers
 {
     public class ExceptionHandler : IExceptionHandler
     {

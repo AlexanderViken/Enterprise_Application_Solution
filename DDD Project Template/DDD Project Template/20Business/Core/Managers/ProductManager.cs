@@ -5,7 +5,7 @@ using $ext_safeprojectname$.Domain.Contracts.Repositories;
 using $ext_safeprojectname$.Domain.Contracts.Validators;
 using $ext_safeprojectname$.Domain.Entities;
 
-namespace $safeprojectname$.Managers
+namespace $ext_safeprojectname$.$safeprojectname$.Managers
 {
     public class ProductManager : IProductManager
     {

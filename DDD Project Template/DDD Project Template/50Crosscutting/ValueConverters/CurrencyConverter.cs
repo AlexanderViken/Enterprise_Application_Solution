@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace $safeprojectname$
+namespace $ext_safeprojectname$.$safeprojectname$
 {
     public static class CurrencyConverter
     {

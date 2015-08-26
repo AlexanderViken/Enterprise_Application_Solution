@@ -1,7 +1,7 @@
 ﻿using System;
 using Moq;
 
-namespace $safeprojectname$
+namespace $ext_safeprojectname$.$safeprojectname$
 {
     /// <summary>
     /// Wrapper class for abstract values tests tests using Moq.It

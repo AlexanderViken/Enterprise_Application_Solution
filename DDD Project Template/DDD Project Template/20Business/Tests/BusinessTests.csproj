@@ -56,17 +56,17 @@
     <Folder Include="Validators\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\$ext_safeprojectname$.Business.Core\$ext_safeprojectname$.Business.Core.csproj">
-      <Project>{26cb58df-ba5b-4ae6-b6eb-cf081684f08d}</Project>
-      <Name>$ext_safeprojectname$.Business.Core</Name>
+    <ProjectReference Include="..\Business.Core\Business.Core.csproj">
+      <!--      <Project>{26cb58df-ba5b-4ae6-b6eb-cf081684f08d}</Project>
+      <Name>$ext_safeprojectname$.Business.Core</Name> -->
     </ProjectReference>
     <ProjectReference Include="..\$ext_safeprojectname$.Domain\$ext_safeprojectname$.Domain.csproj">
-      <Project>{f13c5bd2-0bc5-448a-9fd7-35a37703c6de}</Project>
-      <Name>$ext_safeprojectname$.Domain</Name>
+      <!--      <Project>{f13c5bd2-0bc5-448a-9fd7-35a37703c6de}</Project>
+      <Name>$ext_safeprojectname$.Domain</Name> -->
     </ProjectReference>
-    <ProjectReference Include="..\$ext_safeprojectname$.CrossCutting.TestHelpers\$ext_safeprojectname$.CrossCutting.TestHelpers.csproj">
-      <Project>{5b65cc6b-34c6-465c-8359-c79015deb0d9}</Project>
-      <Name>$ext_safeprojectname$.CrossCutting.TestHelpers</Name>
+    <ProjectReference Include="..\CrossCutting.TestHelpers\CrossCutting.TestHelpers.csproj">
+      <!--      <Project>{5b65cc6b-34c6-465c-8359-c79015deb0d9}</Project>
+      <Name>$ext_safeprojectname$.CrossCutting.TestHelpers</Name> -->
     </ProjectReference>
   </ItemGroup>  
 	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

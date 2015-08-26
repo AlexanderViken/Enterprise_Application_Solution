@@ -1,5 +1,5 @@
 ﻿
-namespace $safeprojectname$
+namespace $ext_safeprojectname$.$safeprojectname$
 {
     public static class ProductTestCategories
     {

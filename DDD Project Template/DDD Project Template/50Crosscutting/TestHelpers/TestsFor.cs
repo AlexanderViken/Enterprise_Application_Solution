@@ -2,7 +2,7 @@
 using StructureMap.AutoMocking.Moq;
 using Moq;
 
-namespace $safeprojectname$
+namespace $ext_safeprojectname$.$safeprojectname$
 {
     /// <summary>
     /// A helper class for unit tests using MSTest and Moq

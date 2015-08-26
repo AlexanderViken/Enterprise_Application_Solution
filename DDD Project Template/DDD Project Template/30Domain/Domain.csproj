@@ -56,9 +56,12 @@
     <Compile Include="Values\Money.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\$ext_safeprojectname$.CrossCutting.ValueConverters\$ext_safeprojectname$.CrossCutting.ValueConverters.csproj">
-      <Project>{c9f09d5d-39ce-48f0-a4e8-8077ef2c25ec}</Project>
-      <Name>$ext_safeprojectname$.CrossCutting.ValueConverters</Name>
+    <!--    <ProjectReference Include="..\$ext_safeprojectname$.CrossCutting.ValueConverters\$ext_safeprojectname$.CrossCutting.ValueConverters.csproj"> -->
+    <ProjectReference Include="..\CrossCutting.ValueConverters\CrossCutting.ValueConverters.csproj">
+      <!--      <Project>{c9f09d5d-39ce-48f0-a4e8-8077ef2c25ec}</Project> -->
+      <!--      <Name>$ext_safeprojectname$.CrossCutting.ValueConverters</Name> -->
+      <!-- <Name>CrossCutting.ValueConverters</Name> -->
+
     </ProjectReference>
   </ItemGroup>
 	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
@@ -68,6 +71,6 @@
   </Target>
   <Target Name="AfterBuild">
   </Target>
-  -->
+  --> 
 
  </Project>

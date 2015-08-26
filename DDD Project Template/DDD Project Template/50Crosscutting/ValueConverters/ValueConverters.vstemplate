@@ -17,7 +17,7 @@
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
-      <ProjectItem ReplaceParameters="true" OpenInEditor="true">CurrencyConverter.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">CurrencyConverter.cs</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>

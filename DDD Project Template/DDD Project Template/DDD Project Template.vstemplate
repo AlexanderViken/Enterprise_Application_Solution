@@ -4,6 +4,8 @@
     <Description>A C# solution template focused on decoupling and testability in software for software using the full .NET framework</Description>
     <Icon>icon.ico</Icon>
     <ProjectType>CSharp</ProjectType>
+    <CreateNewFolder>false</CreateNewFolder>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
   </TemplateData>
   <TemplateContent>
     <ProjectCollection>
@@ -14,10 +16,10 @@
       </SolutionFolder>
 
       <SolutionFolder Name="20 Business Layer">
-        <ProjectTemplateLink ProjectName="$safeprojectname$.Business.Core" CopyParameters="true">
+        <ProjectTemplateLink ProjectName="Business.Core" CopyParameters="true">
           20Business\Core\Business.vstemplate
         </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.Business.Core.Tests" CopyParameters="true">
+        <ProjectTemplateLink ProjectName="Business.Core.Tests" CopyParameters="true">
           20Business\Tests\BusinessTests.vstemplate
         </ProjectTemplateLink>
       </SolutionFolder>
@@ -27,18 +29,19 @@
         </ProjectTemplateLink>
       </SolutionFolder>
       <SolutionFolder Name="40 Data Layer">
-        <ProjectTemplateLink ProjectName="$safeprojectname$.Data.Fakes" CopyParameters="true">
+        <ProjectTemplateLink ProjectName="Data.Fakes" CopyParameters="true">
           40Data\Data.vstemplate
         </ProjectTemplateLink>
       </SolutionFolder>
       <SolutionFolder Name="50 Cross-Cutting Layer">
-        <ProjectTemplateLink ProjectName="$safeprojectname$.CrossCutting.Extentions" CopyParameters="true">
+        <ProjectTemplateLink ProjectName="CrossCutting.Extentions" CopyParameters="true">
           50Crosscutting\Extentions\Extentions.vstemplate
         </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.CrossCutting.TestHelpers" CopyParameters="true">
+        <ProjectTemplateLink ProjectName="CrossCutting.TestHelpers" CopyParameters="true">
           50Crosscutting\TestHelpers\TestHelpers.vstemplate
         </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.CrossCutting.ValueConverters" CopyParameters="true">
+<!--        <ProjectTemplateLink ProjectName="$safeprojectname$.CrossCutting.ValueConverters" CopyParameters="true"> -->
+        <ProjectTemplateLink ProjectName="CrossCutting.ValueConverters" CopyParameters="true">
           50Crosscutting\ValueConverters\ValueConverters.vstemplate
         </ProjectTemplateLink>
       </SolutionFolder>
