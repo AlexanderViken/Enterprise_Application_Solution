@@ -53,7 +53,7 @@
     <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\$ext_safeprojectname$.Domain\$ext_safeprojectname$.Domain.csproj">
+    <ProjectReference Include="..\Domain\Domain.csproj">
       <!--      <Project>{f13c5bd2-0bc5-448a-9fd7-35a37703c6de}</Project>
       <Name>$ext_safeprojectname$.Domain</Name> -->
     </ProjectReference>

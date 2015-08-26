@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="DDDSolutionTemplate..3ed42c14-8049-41d3-ad56-a1dd1044a4c4" Version="1.00.4" Language="en-US" Publisher="Alexander Viken" />
+    <Identity Id="DDDSolutionTemplate..3ed42c14-8049-41d3-ad56-a1dd1044a4c4" Version="1.00.0" Language="en-US" Publisher="Alexander Viken" />
     <DisplayName>Enterprise Application SOLID Solution</DisplayName>
     <Description xml:space="preserve">This Visual Studio multi-project solution template sets up a base project structure for software based on SOLID principles</Description>
     <MoreInfo>https://visualstudiogallery.msdn.microsoft.com/74633fdf-0563-4c75-aca8-f69835e7f8ab</MoreInfo>

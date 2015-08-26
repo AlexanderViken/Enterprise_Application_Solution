@@ -1,7 +1,7 @@
 ﻿using System;
-using $safeprojectname$.Values;
+using $ext_safeprojectname$.$safeprojectname$.Values;
 
-namespace $safeprojectname$.Entities
+namespace $ext_safeprojectname$.$safeprojectname$.Entities
 {
     public class Product
     {

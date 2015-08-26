@@ -1,6 +1,6 @@
-﻿using $safeprojectname$.Entities;
+﻿using $ext_safeprojectname$.$safeprojectname$.Entities;
 
-namespace $safeprojectname$.Contracts.Factories
+namespace $ext_safeprojectname$.$safeprojectname$.Contracts.Factories
 {
     public interface IProductFactory
     {

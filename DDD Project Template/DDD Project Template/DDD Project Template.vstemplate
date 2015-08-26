@@ -24,7 +24,7 @@
         </ProjectTemplateLink>
       </SolutionFolder>
       <SolutionFolder Name="30 Domain Layer">
-        <ProjectTemplateLink ProjectName="$safeprojectname$.Domain" CopyParameters="true">
+        <ProjectTemplateLink ProjectName="Domain" CopyParameters="true">
           30Domain\Domain.vstemplate
         </ProjectTemplateLink>
       </SolutionFolder>

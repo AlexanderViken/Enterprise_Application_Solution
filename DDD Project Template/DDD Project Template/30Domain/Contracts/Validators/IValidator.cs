@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace $safeprojectname$.Contracts.Validators
+namespace $ext_safeprojectname$.$safeprojectname$.Contracts.Validators
 {
     public interface IValidator<T>
     {

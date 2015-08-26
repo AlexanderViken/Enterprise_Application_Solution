@@ -1,5 +1,5 @@
 using $ext_safeprojectname$.CrossCutting.ValueConverters;
-namespace $safeprojectname$.Values
+namespace $ext_safeprojectname$.$safeprojectname$.Values
 {
     public class Money
     {

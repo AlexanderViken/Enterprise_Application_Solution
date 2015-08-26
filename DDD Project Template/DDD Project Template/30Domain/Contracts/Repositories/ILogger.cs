@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace $safeprojectname$.Contracts.Repositories
+namespace $ext_safeprojectname$.$safeprojectname$.Contracts.Repositories
 {
     public interface ILogger
     {

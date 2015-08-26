@@ -1,5 +1,5 @@
-﻿using $safeprojectname$.Entities;
-namespace $safeprojectname$.Contracts.Managers
+﻿using $ext_safeprojectname$.$safeprojectname$.Entities;
+namespace $ext_safeprojectname$.$safeprojectname$.Contracts.Managers
 {
     public interface IProductManager
     {

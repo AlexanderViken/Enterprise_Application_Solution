@@ -1,5 +1,5 @@
 ﻿using System;
-namespace $safeprojectname$.Contracts.Handlers
+namespace $ext_safeprojectname$.$safeprojectname$.Contracts.Handlers
 {
     public interface IExceptionHandler
     {

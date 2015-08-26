@@ -1,6 +1,6 @@
-﻿using $safeprojectname$.Entities;
+﻿using $ext_safeprojectname$.$safeprojectname$.Entities;
 
-namespace $safeprojectname$.Contracts.Repositories
+namespace $ext_safeprojectname$.$safeprojectname$.Contracts.Repositories
 {
     public interface IProductRepository
     {
